@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy Jump!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+        .background{
+            position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+        }
+        .btn{
+            border: 5px solid rgb(193, 0, 0);
+            position: relative;
+            top: 14vh;
+            left: 70vw;
+            font-family: 'Mouse Memoirs';
+            font-size: 68px;
+            background-color: red;
+            border-radius: 18px;
+            padding: 8px 18px;
+        }
+        .btn:hover{
+            background-color: rgb(50, 193, 21);
+            border: 5px solid rgb(23, 138, 0);
+        }
+        .btn a{
+            text-decoration: none;
+            color: white;
+        }
+        .welcome{
+            position: relative;
+            display: inline;
+            top: 28vh;
+            left: 7vw;
+            font-size: 88px;
+            font-style: italic;
+            color: rgb(0, 0, 0);
+            font-family: 'Mouse Memoirs';
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="welcome">Fairy Jump Adventure</div>
+    <div ><button type="button" class="btn"><a href="game.html" target="_self">Play Now!</a></button></div>
+</body>
+</html>
